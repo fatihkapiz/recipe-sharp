@@ -1,0 +1,39 @@
+.calculator-label {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+body {
+    color: rgb(217, 217, 217);
+}
+
+#calculator {
+    margin: auto auto;
+    width: 50em;
+    display: flex;
+}
+
+#calculator-form {
+    margin-right: 10em;
+}
+
+#calculate-cals {
+    width: auto;
+    height: 3em;
+    size: 2em;
+    display: block;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#add-ingredients {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#results {
+    width: 42%;
+    margin: auto auto;
+}

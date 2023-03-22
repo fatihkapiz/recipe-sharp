@@ -64,10 +64,34 @@ hr.dotted-small {
     width: max-content;
 }
 
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 2px 2px red;
+    text-decoration: underline;
+    color: red;
+}
+
+a:visited {
+    color:rgb(217, 217, 217);
+}
+
+a:visited:hover {
+    text-shadow: 2px 2px red;
+    text-decoration: underline;
+    color: red;
+}
+
 .nav-list-item {
     display: inline;
     margin-right: 2rem;
-    color: rgb(217, 217, 217)
+    color: rgb(217, 217, 217);
+}
+
+.nav-list-item:hover {
+    text-shadow: 2px 2px red; 
 }
 
 .form-container {
