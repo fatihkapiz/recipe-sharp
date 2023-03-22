@@ -1,0 +1,112 @@
+.main-table {
+    margin: auto auto;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    color: rgb(217, 217, 217);
+    font-size: 1.2rem;
+}
+
+.table-heading {
+    border-color:rgb(217, 217, 217);
+    border-style: dotted;
+    border-bottom: 1pt;
+}
+
+.table-cell {
+    padding: 1.2em;
+}
+
+.submit-button {
+    height: 1.5em;
+    width: auto;
+    background-color: rgb(36, 189, 77);
+    border-radius: 5px;
+    border-color: rgb(36, 189, 77);
+}
+
+hr.dotted-big {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 2px dashed rgb(165, 165, 165);
+    border-bottom: 0px dashed rgba(248, 231, 231, 0.26);
+}
+hr.dotted-small {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-top: 1px dashed rgb(165, 165, 165);
+    border-bottom: 0px dashed rgba(248, 231, 231, 0.26);
+}
+
+.form-element {
+    margin: 1em 1em 1em 1em;
+}
+
+.main-list {
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-flexer {
+    display: flex;
+    justify-content: left;
+}
+
+.recipe-details {
+    width: 50em;
+    margin: auto auto;
+    color:rgb(217, 217, 217);
+}
+
+.form-element > label {
+    width: max-content;
+}
+
+.nav-list-item {
+    display: inline;
+    margin-right: 2rem;
+    color: rgb(217, 217, 217)
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+#main-page {
+    padding-left: 1em;
+    width: 20%;
+}
+
+
+#navbar-container-right {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#topnav {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-container {
+    position: fixed;
+    top: 0px;
+    height: 4em;
+    display: flex;
+    margin: 0;
+    width: 100vw;
+    background-color: rgb(9, 33, 42)
+}
+
+
+body {
+    padding-top: 5em;
+    margin: 0;
+    background-color: rgb(36,36,36);
+    font-family: "Roboto Mono", monospace;
+}

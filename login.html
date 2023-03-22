@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>recipe-sharp login</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+	<nav class="navbar-container">
+			<h1 id="main-page" style="display:inline;color: azure"><a href="index.html">recipe-sharp</a></h1>
+			<div id="navbar-container-right">
+				<ul id="topnav">
+          <li class="nav-list-item"><a href="recipes.html">Recipes</a></li>
+						<li class="nav-list-item"><a href="login.html">Login</a></li>
+						<li class="nav-list-item"><a href="register.html">Register</a></li>
+				</ul>
+			</div>
+	</nav>
+
+  <main>
+    <div class="form-container">
+      <form method="POST" action="./registered.html">
+        <ul style="list-style-type: none;">
+  
+          <li>
+            <div id="username-block" class="form-element">
+              <label for="username">Username</label>
+              <input name="username" type="text" id="username-input" placeholder="Username" />
+            </div>
+          </li>
+  
+          <li>
+            <div id="email-block" class="form-element">
+              <label for="email">E-mail&nbsp&nbsp</label>
+              <input name="email" type="email" id="email-input" placeholder="food@recipe.cook" />
+            </div>
+          </li>
+  
+          <li>
+            <div id="password-block" class="form-element">
+              <label for="password">Password</label>
+              <input name="password" type="password" id="password-input" placeholder="Password" />
+            </div>
+          </li>
+  
+          <li>
+            <div id="submit-block" class="form-element">
+              <input name="submit-button" type="submit" class="submit-button"></input>
+            </div class="form-element">
+          </li>
+  
+        </ul>
+      </form>
+    </div>
+  </main>
+
+</body>
+
+</html>
