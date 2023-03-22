@@ -66,6 +66,7 @@ hr.dotted-small {
 
 a:-webkit-any-link {
     text-decoration: none;
+    color:rgb(217, 217, 217);
 }
 
 a:hover {
